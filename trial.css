@@ -1,0 +1,221 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:  rgba(102, 118, 124, 0.959);
+  line-height: 1.5em;
+}
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: auto;
+}
+
+ .current a{
+  color: rgba(14, 206, 219, 0.8);
+}
+
+header{
+  background-color: black;
+  color: white;
+  padding-top: 13px;
+  min-height: 70px;
+  border-bottom: solid 3px blue;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+header li{
+  float: left;
+  display: inline;
+  padding: 13px 20px ;
+  font-family: sans-serif;
+}
+
+header #brand-name{
+  cursor: pointer;
+  color: rgba(14, 206, 219, 0.8);
+  margin: 0;
+  font-size: 25px;
+  padding-left: 19px;
+  padding-top: 0;
+  margin-left: auto;
+  position: fixed;
+}
+
+header p{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-right: auto;
+}
+
+ 
+
+
+li a:hover{
+  transition: all 0.4s ease 0s;
+  padding: 20px;
+  background-color: rgba(14, 206, 219, 0.3);
+  color: #f4f4f4;
+  border: none;
+  border-radius: 50px;
+}
+
+
+.alist a:hover{
+transition: all 0.4s ease 0s;
+padding: 20px;
+background-color: rgba(14, 206, 219, 0.8);
+border: none;
+border-radius: 50px;
+color: rgba(17, 46 , 57 ,0.8);
+font-weight: bold;
+}
+
+
+
+#image-container{
+  background-image: url(../tester/Images/hotel.avif);
+  min-height: 40px;
+  background-position: center;
+  background-repeat: no-repeat 0 -400px;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  }
+
+
+.second-header{
+  text-align: center;
+  padding: 29px;
+  padding-top: 100px;
+  font-size: 40px;
+  font-family: "lato" , sans-serif;
+  font-weight: 600;
+}
+
+.header-three{
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-top: 30px;
+}
+
+#last-header{
+  text-align: center;
+  font-size: large;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.container{
+  font-size: 23px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  background-color: black;
+  color: #f4f4f4;
+  margin: auto;
+  padding-top: 0px;
+  min-height: 70px;
+}
+
+p{
+  display: flex;
+  align-items:center;
+  padding: 25px;
+  height: 19px;
+  
+}
+
+li, a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: floralwhite;
+  font-size: 16px;
+  padding-right: 2.3rem;
+  padding-top :0px;
+}
+
+ul{
+  display: flex;
+  padding: 0px 25px;
+  justify-content: right;
+  align-items: center;
+  height: 1px;
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
